@@ -488,8 +488,7 @@
     left: 150px;
     animation: sectionAnim2 2s ease infinite;
 }
-/* 20 800px
-60 700px */
+
 
 @keyframes sectionAnim2{
     0%{
