@@ -77,3 +77,97 @@
     margin: 50px 250px; 
   }
 }
+
+/* -------------------------------Task 1 tugadi -------------------------------------------------- */
+
+
+
+
+/* -------------------------------Task 2 boshlandi -------------------------------------------------- */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .task_2{
+    padding: 10px;
+    width: 500px;
+    height: 150px;
+    background-color: rgb(82, 64, 52);
+    margin: 50px auto;
+  }
+
+  .anim_1{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(200, 103, 103);
+    margin: 10px 100px;
+    animation-name: task_1_anim;
+    animation-duration: .4s;
+    animation-delay: .1s;
+
+}
+
+.anim_2{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(200, 103, 103);
+    margin: 15px 100px;
+    animation-name: task_2_anim;
+    animation-duration: .4s;
+    animation-delay: .2s;
+    
+}
+
+.anim_3{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(200, 103, 103);
+    margin: 10px 100px;
+    animation-name: task_3_anim;
+    animation-duration: .4s;
+    animation-delay: .3s;
+
+}
+
+
+@keyframes task_1_anim{
+    0%{
+        margin-left: 100px;
+        background-color: bisque;
+    }
+
+    100%{
+        margin-left: 300px;
+        background-color: bisque;
+    }
+}
+
+
+@keyframes task_2_anim{
+    0%{
+        margin-left: 100px;
+        background-color: bisque;
+    }
+
+    100%{
+        margin-left: 300px;
+        background-color: bisque;
+    }
+}
+
+@keyframes task_3_anim{
+    0%{
+        margin-left: 100px;
+        background-color: bisque;
+    }
+
+    100%{
+        margin-left: 300px;
+        background-color: bisque;
+    }
+}
+
+/* -------------------------------Task 2 tugadi -------------------------------------------------- */
